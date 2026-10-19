@@ -1,0 +1,13 @@
+{
+  "name": "zhigeng-ai-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "知更 · 一个安静生长的 AI 知识花园",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
