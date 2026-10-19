@@ -31,6 +31,7 @@ jobs:
           node --check dist/app.js
           node --check dist/core.js
           node --check dist/markdown.js
+          node --check dist/images.js
 
       - name: Test data handling and Markdown safety
         run: node --test tests/*.test.mjs

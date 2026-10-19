@@ -9,13 +9,14 @@ export const CATEGORIES = [
 
 export const dateKey = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 export const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-export const plainText = value => String(value).replace(/```[\s\S]*?```/g, ' [代码示例] ').replace(/[#*`>\[\]_-]/g, '').replace(/\s+/g, ' ').trim();
-export const readingMinutes = content => Math.max(1, Math.ceil(String(content).length / 400));
+export const plainText = value => String(value).replace(/!\[([^\]]*)\]\([^\s)]+\)/g, ' [图片：$1] ').replace(/```[\s\S]*?```/g, ' [代码示例] ').replace(/[#*`>\[\]_-]/g, '').replace(/\s+/g, ' ').trim();
+export const wordCount = content => String(content).replace(/!\[[^\]]*\]\([^\s)]+\)/g, '').replace(/\s/g, '').length;
+export const readingMinutes = content => Math.max(1, Math.ceil(wordCount(content) / 400));
 export const categoryFor = id => CATEGORIES.find(c => c.id === id) || CATEGORIES[0];
 
-export function selectNotes(notes, { category = 'all', query = '', favorite = false, tag = '', date = '', sort = 'newest' } = {}) {
+export function selectNotes(notes, { category = 'all', query = '', favorite = false, tag = '', date = '', sort = 'newest', archive = 'active' } = {}) {
   const terms = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
-  return notes.filter(n => (category === 'all' || n.category === category) && (!favorite || n.favorite) && (!tag || n.tags.includes(tag)) && (!date || n.date === date) && terms.every(t => `${n.title} ${n.content} ${n.tags.join(' ')} ${categoryFor(n.category).name}`.toLocaleLowerCase().includes(t)))
+  return notes.filter(n => (archive === 'all' || (archive === 'archived' ? !!n.archivedAt : !n.archivedAt)) && (category === 'all' || n.category === category) && (!favorite || n.favorite) && (!tag || n.tags.includes(tag)) && (!date || n.date === date) && terms.every(t => `${n.title} ${plainText(n.content)} ${n.tags.join(' ')} ${categoryFor(n.category).name}`.toLocaleLowerCase().includes(t)))
     .sort((a, b) => sort === 'oldest' ? a.date.localeCompare(b.date) : sort === 'updated' ? b.updatedAt.localeCompare(a.updatedAt) : b.date.localeCompare(a.date) || b.updatedAt.localeCompare(a.updatedAt));
 }
 
@@ -26,16 +27,21 @@ export function learningStats(notes, now = new Date()) {
   if (!days.has(dateKey(cursor))) cursor.setDate(cursor.getDate() - 1);
   let streak = 0;
   while (days.has(dateKey(cursor))) { streak++; cursor.setDate(cursor.getDate() - 1); }
-  return { days: days.size, streak, words: actual.reduce((s, n) => s + n.content.replace(/\s/g, '').length, 0), total: actual.length };
+  return { days: days.size, streak, words: actual.reduce((s, n) => s + wordCount(n.content), 0), total: actual.length };
+}
+
+export function setArchived(note, archived, now = new Date()) {
+  return { ...note, archivedAt: archived ? now.toISOString() : null };
 }
 
 export function validateBackup(input) {
-  if (!input || input.app !== 'zhigeng-ai-notes' || input.version !== 1 || !Array.isArray(input.notes) || input.notes.length > 10000) throw new Error('这不是有效的知更备份文件。');
+  if (!input || input.app !== 'zhigeng-ai-notes' || ![1, 2].includes(input.version) || !Array.isArray(input.notes) || input.notes.length > 10000) throw new Error('这不是有效的知更备份文件。');
   const ids = new Set();
   return input.notes.map(n => {
     if (!n || typeof n.id !== 'string' || !n.id || n.id.length > 150 || ids.has(n.id) || typeof n.title !== 'string' || !n.title.trim() || n.title.length > 200 || typeof n.content !== 'string' || n.content.length > 200000 || !Array.isArray(n.tags) || n.tags.length > 20 || n.tags.some(t => typeof t !== 'string' || t.length > 40) || !CATEGORIES.some(c => c.id === n.category) || typeof n.date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(n.date) || Number.isNaN(Date.parse(n.date)) || new Date(`${n.date}T12:00:00Z`).toISOString().slice(0, 10) !== n.date) throw new Error('备份中有不完整、重复或不支持的笔记，未导入任何内容。');
     ids.add(n.id);
-    return { id: n.id, title: n.title.trim(), content: n.content, category: n.category, tags: [...new Set(n.tags)], date: n.date, updatedAt: typeof n.updatedAt === 'string' && !Number.isNaN(Date.parse(n.updatedAt)) ? new Date(n.updatedAt).toISOString() : new Date().toISOString(), favorite: n.favorite === true, demo: n.demo === true, ...(n.demo === true && typeof n.excerpt === 'string' ? { excerpt: n.excerpt.slice(0,500) } : {}) };
+    if (n.archivedAt != null && (typeof n.archivedAt !== 'string' || Number.isNaN(Date.parse(n.archivedAt)))) throw new Error('备份中的归档日期无效，未导入任何内容。');
+    return { id: n.id, title: n.title.trim(), content: n.content, category: n.category, tags: [...new Set(n.tags)], date: n.date, updatedAt: typeof n.updatedAt === 'string' && !Number.isNaN(Date.parse(n.updatedAt)) ? new Date(n.updatedAt).toISOString() : new Date().toISOString(), favorite: n.favorite === true, demo: n.demo === true, ...(Object.hasOwn(n, 'archivedAt') ? { archivedAt: n.archivedAt ? new Date(n.archivedAt).toISOString() : null } : {}), ...(n.demo === true && typeof n.excerpt === 'string' ? { excerpt: n.excerpt.slice(0,500) } : {}) };
   });
 }
 
