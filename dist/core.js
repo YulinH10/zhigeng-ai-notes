@@ -9,8 +9,8 @@ export const CATEGORIES = [
 
 export const dateKey = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 export const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-export const plainText = value => String(value).replace(/!\[([^\]]*)\]\([^\s)]+\)/g, ' [图片：$1] ').replace(/```[\s\S]*?```/g, ' [代码示例] ').replace(/[#*`>\[\]_-]/g, '').replace(/\s+/g, ' ').trim();
-export const wordCount = content => String(content).replace(/!\[[^\]]*\]\([^\s)]+\)/g, '').replace(/\s/g, '').length;
+export const plainText = value => String(value).replace(/!\[([^\]]*)\]\([^\s)]+\)(?:\{width=\d{1,3}%\})?/g, ' [图片：$1] ').replace(/```[\s\S]*?```/g, ' [代码示例] ').replace(/[#*`>\[\]_-]/g, '').replace(/\s+/g, ' ').trim();
+export const wordCount = content => String(content).replace(/!\[[^\]]*\]\([^\s)]+\)(?:\{width=\d{1,3}%\})?/g, '').replace(/\s/g, '').length;
 export const readingMinutes = content => Math.max(1, Math.ceil(wordCount(content) / 400));
 export const categoryFor = id => CATEGORIES.find(c => c.id === id) || CATEGORIES[0];
 

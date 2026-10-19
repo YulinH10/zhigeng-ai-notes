@@ -1,6 +1,6 @@
 import { CATEGORIES, categoryFor, dateKey, escapeHTML as e, plainText, wordCount, readingMinutes, selectNotes, setArchived, learningStats, validateBackup, makeSeedNotes } from './core.js';
 import { markdown } from './markdown.js';
-import { imageReferences, planImageImport, prepareImage, addImages, deleteImages, releaseImages, hydrateImages, exportImages, validateImageBackup, portableMarkdown, copyImage } from './images.js';
+import { imageLayouts, setImageWidth, planImageImport, prepareImage, addImages, deleteImages, releaseImages, hydrateImages, exportImages, validateImageBackup, portableMarkdown, copyImage } from './images.js';
 
 const ICONS = {
   archive: '<rect x="3" y="3" width="18" height="5" rx="1"/><path d="M5 8v13h14V8m-10 5h6"/>',
@@ -182,15 +182,45 @@ function startEditor(id) {
 }
 
 function imageGallery(content) {
-  const ids = imageReferences(content);
-  if (!ids.length) return '';
-  return `<div class="image-gallery-heading">正文中的图片 <span>${ids.length} 张 · 删除正文中的图片标记即可移除</span></div><div class="image-gallery">${ids.map((id, i) => `<figure><img data-attachment-id="${id}" alt="笔记图片 ${i + 1}"><figcaption><span>图片 ${i + 1}</span><button type="button" class="button text-button" data-action="copy-image" data-id="${id}" aria-label="复制图片 ${i + 1}">${icon('copy')} 复制图片</button></figcaption></figure>`).join('')}</div>`;
+  const images = imageLayouts(content);
+  if (!images.length) return '';
+  return `<div class="image-gallery-heading">正文中的图片 <span>${images.length} 张 · 拖动滑块调整宽度，图片始终保持比例</span></div><div class="image-gallery">${images.map((image, i) => `<figure data-image-index="${i}"><div class="image-size-stage"><img ${image.id ? `data-attachment-id="${image.id}"` : `src="${e(image.url)}" referrerpolicy="no-referrer"`} style="width:${image.width === null ? 'auto' : image.width + '%'}" alt="${e(image.alt || `笔记图片 ${i + 1}`)}"></div><figcaption><span>图片 ${i + 1}</span>${image.id ? `<button type="button" class="button text-button" data-action="copy-image" data-id="${image.id}" aria-label="复制图片 ${i + 1}">${icon('copy')} 复制图片</button>` : ''}</figcaption><div class="image-size-controls"><label for="image-width-${i}">显示宽度 <output for="image-width-${i}">${image.width === null ? '自动' : image.width + '%'}</output></label><input id="image-width-${i}" class="image-width-slider" type="range" min="10" max="100" step="1" value="${image.width ?? 100}" data-image-index="${i}" aria-label="图片 ${i + 1} 的显示宽度" aria-valuetext="${image.width === null ? '自动' : image.width + '%'}"><div class="image-size-presets" role="group" aria-label="图片 ${i + 1} 的常用尺寸">${[25,50,75,100].map(width => `<button type="button" data-action="image-width" data-index="${i}" data-value="${width}" aria-pressed="${image.width === width}">${width}%</button>`).join('')}<button type="button" data-action="image-width" data-index="${i}" data-value="auto" aria-pressed="${image.width === null}">恢复默认</button></div></div></figure>`).join('')}</div>`;
+}
+
+const imageGalleryKey = content => JSON.stringify(imageLayouts(content));
+
+function resizeEditorImage(index, width) {
+  if (imageBusy || importBusy || !editorModel) return;
+  syncEditor();
+  const textarea = document.getElementById('editor-content');
+  const content = setImageWidth(editorModel.content, index, width);
+  if (content.length > 200000) { toast('正文已达到长度上限，请先删减内容。'); return; }
+  const start = textarea.selectionStart, end = textarea.selectionEnd, scroll = textarea.scrollTop;
+  textarea.value = content;
+  textarea.setSelectionRange(Math.min(start, content.length), Math.min(end, content.length));
+  textarea.scrollTop = scroll;
+  editorModel.content = content;
+  const gallery = document.getElementById('editor-images');
+  // Keep the active slider in place so dragging and keyboard adjustment stay smooth.
+  gallery.dataset.key = imageGalleryKey(content);
+  const figure = gallery.querySelector(`figure[data-image-index="${index}"]`);
+  const label = width === null ? '自动' : `${width}%`;
+  figure.querySelector('output').textContent = label;
+  figure.querySelector('input').value = width ?? 100;
+  figure.querySelector('input').setAttribute('aria-valuetext', label);
+  figure.querySelector('img').style.width = width === null ? 'auto' : `${width}%`;
+  figure.querySelectorAll('[data-action="image-width"]').forEach(button => button.setAttribute('aria-pressed', button.dataset.value === (width === null ? 'auto' : String(width))));
+  const preview = document.querySelectorAll('.editor-preview img.note-image')[index];
+  if (preview) { preview.style.width = width === null ? '' : `${width}%`; preview.style.maxHeight = width === null ? '' : 'none'; }
+  const status = document.getElementById('save-status');
+  if (status) status.textContent = '正在保存图片尺寸…';
+  clearTimeout(draftTimer); draftTimer = setTimeout(flushEditor, 250);
 }
 
 function refreshImageGallery() {
   const gallery = document.getElementById('editor-images');
   if (!gallery || !editorModel) return;
-  const key = imageReferences(editorModel.content).join(',');
+  const key = imageGalleryKey(editorModel.content);
   if (gallery.dataset.key === key) return;
   releaseImages(gallery);
   gallery.innerHTML = imageGallery(editorModel.content);
@@ -256,7 +286,7 @@ function renderMain() {
   main.innerHTML = `${storageProblem ? `<div class="storage-alert">${icon('info')} ${e(storageProblem)}<button data-action="settings">恢复数据</button></div>` : ''}${html}<footer class="site-footer"><span>知更 <i>·</i> AI Notes</span><span>记录此刻，连接未来。<i>✳</i></span></footer>`;
   document.title = `${r.startsWith('note/') ? notes.find(n => `note/${encodeURIComponent(n.id)}` === r)?.title || '笔记' : ({notes:'知识花园',topics:'知识专题',calendar:'学习日历',favorites:'我的收藏',archive:'归档笔记',write:'写笔记',drafts:'草稿箱'})[r] || '知识花园'} · 知更 AI Notes`;
   const gallery = document.getElementById('editor-images');
-  if (gallery) gallery.dataset.key = imageReferences(editorModel.content).join(',');
+  if (gallery) gallery.dataset.key = imageGalleryKey(editorModel.content);
   hydrateImages(main);
 }
 
@@ -337,6 +367,7 @@ document.addEventListener('click', async event => {
     if (commit(notes.map(n => n.id === id ? setArchived(n, archived) : n))) { render(); toast(archived ? '已移入归档笔记，可随时恢复' : '已恢复到全部笔记'); }
   }
   else if(action === 'insert-image') { document.getElementById('image-file').value = ''; document.getElementById('image-file').click(); }
+  else if(action === 'image-width') resizeEditorImage(Number(target.dataset.index), value === 'auto' ? null : Number(value));
   else if(action === 'copy-image') {
     try { await copyImage(id); toast('图片已复制，可以粘贴到其他笔记或应用'); }
     catch (error) { toast(error.name === 'NotAllowedError' ? '浏览器未允许复制，请在图片上右键复制或保存' : error.message); }
@@ -380,6 +411,11 @@ document.addEventListener('click', async event => {
 });
 
 document.addEventListener('input', event => {
+  if (event.target.matches('.image-width-slider')) {
+    try { resizeEditorImage(Number(event.target.dataset.imageIndex), Number(event.target.value)); }
+    catch (error) { toast(error.message); }
+    return;
+  }
   if (event.target.id === 'search-input') {
     filters.query = event.target.value;
     if(!['notes','favorites','archive'].includes(route())) { flushEditor(); history.replaceState(null,'','#notes'); document.querySelector('.sidebar').outerHTML=sidebar(); }

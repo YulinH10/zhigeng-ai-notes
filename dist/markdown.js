@@ -1,5 +1,5 @@
 import { escapeHTML } from './core.js';
-import { safeImageSource } from './images.js';
+import { safeImageSource, imageMarkupPattern, validImageWidth } from './images.js';
 
 // Deliberately supports a small, safe Markdown subset; raw HTML is always text.
 function inline(source) {
@@ -7,11 +7,12 @@ function inline(source) {
   const token = html => { const id = slots.length; slots.push(html); return `\u0000${id}\u0000`; };
   let value = escapeHTML(source.replace(/\u0000/g, ''));
   value = value.replace(/`([^`]+)`/g, (_, code) => token(`<code>${code}</code>`));
-  value = value.replace(/!\[([^\]]*)\]\(([^\s)]+)\)/g, (_, alt, href) => {
+  value = value.replace(imageMarkupPattern(), (_, alt, href, size) => {
     const source = safeImageSource(href);
     if (!source) return token(`<span class="missing-image">${alt || '图片地址不受支持'}</span>`);
     const attributes = source.id ? `data-attachment-id="${source.id}"` : `src="${source.url}"`;
-    return token(`<img class="note-image" ${attributes} alt="${alt || '笔记图片'}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`);
+    const width = validImageWidth(size);
+    return token(`<img class="note-image" ${attributes}${width === null ? '' : ` style="width:${width}%;max-height:none"`} alt="${alt || '笔记图片'}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`);
   });
   value = value.replace(/\[([^\]]+)\]\(([^\s)]+)\)/g, (_, label, href) => {
     if (!/^https?:\/\//i.test(href)) return label;

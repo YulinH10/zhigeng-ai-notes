@@ -5,6 +5,32 @@ const INPUT_TYPES = new Set(['image/png', 'image/jpeg', 'image/webp']);
 const attachmentPattern = () => /!\[([^\]]*)\]\(attachment:([a-zA-Z0-9_-]{1,80})\)/g;
 let databasePromise;
 
+// A small Markdown extension stores layout alongside each image occurrence.
+export const imageMarkupPattern = () => /!\[([^\]]*)\]\(([^\s)]+)\)(?:\{width=(\d{1,3})%\})?/g;
+export const validImageWidth = value => Number.isInteger(Number(value)) && Number(value) >= 10 && Number(value) <= 100 ? Number(value) : null;
+
+export function imageLayouts(content) {
+  const text = String(content);
+  let fenced = false;
+  const masked = text.split(/(?<=\n)/).map(line => {
+    if (/^```/.test(line)) { fenced = !fenced; return line.replace(/[^\r\n]/g, ' '); }
+    return fenced ? line.replace(/[^\r\n]/g, ' ') : line;
+  }).join('').replace(/`[^`]+`/g, code => code.replace(/[^\r\n]/g, ' '));
+  return [...masked.matchAll(imageMarkupPattern())].flatMap(match => {
+    const source = safeImageSource(match[2]);
+    return source ? [{ ...source, source: match[2], alt: match[1], start: match.index, end: match.index + match[0].length, width: validImageWidth(match[3]) }] : [];
+  });
+}
+
+export function setImageWidth(content, index, width) {
+  const image = imageLayouts(content)[index];
+  if (!image) throw new Error('这张图片已从正文移除，请重新选择。');
+  if (width !== null && validImageWidth(width) === null) throw new Error('图片宽度应为 10% 至 100%。');
+  const original = content.slice(image.start, image.end).replace(/\{width=\d{1,3}%\}$/, '');
+  const replacement = original + (width === null ? '' : `{width=${Number(width)}%}`);
+  return content.slice(0, image.start) + replacement + content.slice(image.end);
+}
+
 export function imageReferences(content) {
   return [...new Set([...String(content).matchAll(attachmentPattern())].map(match => match[2]))];
 }
