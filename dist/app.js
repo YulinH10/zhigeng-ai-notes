@@ -1,5 +1,6 @@
 import { CATEGORIES, categoryFor, dateKey, escapeHTML as e, plainText, wordCount, readingMinutes, selectNotes, setArchived, learningStats, validateBackup, makeSeedNotes } from './core.js';
 import { markdown } from './markdown.js';
+import { includePublishedNotes } from './published.js';
 import { imageLayouts, setImageWidth, planImageImport, prepareImage, addImages, deleteImages, releaseImages, hydrateImages, exportImages, validateImageBackup, portableMarkdown, copyImage } from './images.js';
 
 const ICONS = {
@@ -45,9 +46,9 @@ let notes, draft = null, prefs = {}, storageProblem = '', rawBackup = '';
 try {
   const raw = localStorage.getItem(NOTES_KEY);
   rawBackup = raw || '';
-  notes = raw ? validateBackup(JSON.parse(raw)) : makeSeedNotes();
+  notes = includePublishedNotes(raw ? validateBackup(JSON.parse(raw)) : makeSeedNotes());
   if (!raw) localStorage.setItem(NOTES_KEY, JSON.stringify({ app: 'zhigeng-ai-notes', version: 1, notes }));
-} catch (error) { notes = []; storageProblem = `无法读取笔记：${error.message}`; }
+} catch (error) { notes = includePublishedNotes([]); storageProblem = `无法读取笔记：${error.message}`; }
 try { draft = JSON.parse(localStorage.getItem(DRAFT_KEY) || 'null'); prefs = JSON.parse(localStorage.getItem(PREFS_KEY) || '{}') || {}; } catch { /* The saved notes remain available if preferences are corrupt. */ }
 if (!draft || typeof draft !== 'object' || typeof draft.title !== 'string' || typeof draft.content !== 'string' || !Array.isArray(draft.tags) || !CATEGORIES.some(c => c.id === draft.category)) draft = null;
 let filters = { category: 'all', query: '', tag: '', sort: 'newest' };
