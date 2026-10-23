@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="800" viewBox="0 0 1120 800" role="img" aria-labelledby="title desc">
+<title id="title">八个角色，各管一段</title><desc id="desc">外面管任务流转，里面管诊断、修复和验证。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="800" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 09</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">八个角色，各管一段</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">外面管任务流转，里面管诊断、修复和验证。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 758 L1072 758" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="783" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="783" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">09 / 20</text>
+<text x="48" y="219" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="31" font-weight="600" fill="#426584" text-anchor="start">全局控制小队</text>
+<text x="587" y="219" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="31" font-weight="600" fill="#37694f" text-anchor="start">修复小队</text>
+<path d="M48 242 L504 242" fill="none" stroke="#426584" stroke-width="3"/>
+<path d="M587 242 L1072 242" fill="none" stroke="#37694f" stroke-width="3"/>
+<text x="48" y="299" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="28" font-weight="600" fill="#426584" text-anchor="start">入池执行器</text>
+<text x="48" y="340.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">拉取、归一化、去重、聚类</text>
+<text x="48" y="431" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="28" font-weight="600" fill="#426584" text-anchor="start">全局调度器</text>
+<text x="48" y="472.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">建单、派单、回流、人工门禁</text>
+<text x="48" y="563" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="28" font-weight="600" fill="#426584" text-anchor="start">通知器</text>
+<text x="48" y="604.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">送达需要判断的材料，记录回复</text>
+<text x="587" y="289" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">队长</text>
+<text x="587" y="323" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">拆任务，推进流转</text>
+<text x="587" y="370" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">方案设计者</text>
+<text x="587" y="404" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">复现、归因、提出改法</text>
+<text x="587" y="451" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">审查者</text>
+<text x="587" y="485" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">检查边界与验证计划</text>
+<text x="587" y="532" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">实施者</text>
+<text x="587" y="566" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">按审查后的计划修改</text>
+<text x="587" y="613" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">验证者</text>
+<text x="587" y="647" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">回测，判定每条样本的去向</text>
+<text x="48" y="720" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="500" fill="#253b31" text-anchor="start">实施和判定分开；每个角色都要交回自己的证据。</text>
+</svg>

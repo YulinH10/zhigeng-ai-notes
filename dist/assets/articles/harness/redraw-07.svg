@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="555" viewBox="0 0 1120 555" role="img" aria-labelledby="title desc">
+<title id="title">修完这一批，下一批还在等人</title><desc id="desc">中间两步自动化了，发现、派工和回收仍需要人推动。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="555" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 07</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">修完这一批，下一批还在等人</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">中间两步自动化了，发现、派工和回收仍需要人推动。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 513 L1072 513" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="538" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="538" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">07 / 20</text>
+<rect x="48" y="255" width="154" height="106" fill="#fafaf6" stroke="#6d776e" stroke-width="1.5" rx="0"/>
+<text x="125.0" y="305.88" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#6d776e" text-anchor="middle">发现</text>
+<text x="125.0" y="336.62" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">人工</text>
+<path d="M206 307 L217 307" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="222" y="255" width="154" height="106" fill="#fafaf6" stroke="#6d776e" stroke-width="1.5" rx="0"/>
+<text x="299.0" y="305.88" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#6d776e" text-anchor="middle">初步归因</text>
+<text x="299.0" y="336.62" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">人工</text>
+<path d="M380 307 L391 307" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="396" y="255" width="154" height="106" fill="#fafaf6" stroke="#6d776e" stroke-width="1.5" rx="0"/>
+<text x="473.0" y="305.88" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#6d776e" text-anchor="middle">分派</text>
+<text x="473.0" y="336.62" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">人工</text>
+<path d="M554 307 L565 307" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="570" y="255" width="154" height="106" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="647.0" y="305.88" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#37694f" text-anchor="middle">修复</text>
+<text x="647.0" y="336.62" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">Agent</text>
+<path d="M728 307 L739 307" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="744" y="255" width="154" height="106" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="821.0" y="305.88" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#37694f" text-anchor="middle">验证</text>
+<text x="821.0" y="336.62" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">Agent</text>
+<path d="M902 307 L913 307" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="918" y="255" width="154" height="106" fill="#fafaf6" stroke="#6d776e" stroke-width="1.5" rx="0"/>
+<text x="995.0" y="305.88" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#6d776e" text-anchor="middle">结果回流</text>
+<text x="995.0" y="336.62" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">人工</text>
+<rect x="559" y="228" width="342" height="159" fill="none" stroke="#37694f" stroke-width="2" rx="0"/>
+<text x="730" y="210" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#37694f" text-anchor="middle">已能自主完成</text>
+<path d="M995 370 V431 H125 V371" fill="none" stroke="#6d776e" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrow)"/>
+<text x="560" y="467" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#6d776e" text-anchor="middle">人还在找问题、分任务、追结果</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="710" viewBox="0 0 1120 710" role="img" aria-labelledby="title desc">
+<title id="title">长任务里，先管住执行和上下文</title><desc id="desc">早停、机械重试、上下文堆积，都需要具体的处理办法。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="710" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 03</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">长任务里，先管住执行和上下文</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">早停、机械重试、上下文堆积，都需要具体的处理办法。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 668 L1072 668" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="693" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="693" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">03 / 20</text>
+<text x="48" y="220" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#37694f" text-anchor="start">持续推进</text>
+<text x="48" y="259.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#253b31" text-anchor="start">按约定推进当前任务。</text>
+<text x="48" y="294.65" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#253b31" text-anchor="start">遇到边界，按约定退出。</text>
+<text x="48" y="343" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#37694f" text-anchor="start">异常先查</text>
+<text x="48" y="382.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#253b31" text-anchor="start">相同错误再次出现，先分析原因，</text>
+<text x="48" y="417.65" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#253b31" text-anchor="start">再决定下一步。</text>
+<text x="48" y="466" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#37694f" text-anchor="start">一次一件</text>
+<text x="48" y="505.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#253b31" text-anchor="start">保留当前目标，避免任务越做越散。</text>
+<path d="M538 202 L538 596" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<rect x="585" y="205" width="487" height="87" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="828.5" y="246.76" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">主 Agent</text>
+<text x="828.5" y="271.99" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">保留任务、轮次与当前擂主</text>
+<path d="M828 296 L828 343" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="854" y="330" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">只交接必要说明</text>
+<rect x="585" y="352" width="487" height="101" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="828.5" y="400.48" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">子 Agent</text>
+<text x="828.5" y="429.77" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">承接复杂分析，隔离上下文消耗</text>
+<path d="M1072 403 H1091 V249 H1080" fill="none" stroke="#426584" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="600" y="514" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#426584" text-anchor="start">交回结论、证据、产物位置</text>
+<text x="600" y="559" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">不复制整段历史</text>
+<text x="48" y="632" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">退出条件：完成、预算用尽、缺少权限，或等待人工决策。</text>
+</svg>

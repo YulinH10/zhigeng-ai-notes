@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="730" viewBox="0 0 1120 730" role="img" aria-labelledby="title desc">
+<title id="title">25 条“没有澄清”，要拆成三组</title><desc id="desc">相同的标签，不代表相同的修复方向。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="730" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 12</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">25 条“没有澄清”，要拆成三组</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">相同的标签，不代表相同的修复方向。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 688 L1072 688" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="713" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="713" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">12 / 20</text>
+<path d="M48 208 L376 208" fill="none" stroke="#37694f" stroke-width="4"/>
+<text x="48" y="258" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="39" font-weight="600" fill="#37694f" text-anchor="start">A</text>
+<text x="48" y="303" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#37694f" text-anchor="start">短输入直接答</text>
+<text x="48" y="366" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="500" fill="#253b31" text-anchor="start">“某省档案”</text>
+<text x="48" y="422.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">检索找到一个解释，</text>
+<text x="48" y="459.2" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">模型没有确认就回答。</text>
+<path d="M48 530 L376 530" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="578.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">要先定澄清边界</text>
+<path d="M396 208 L724 208" fill="none" stroke="#426584" stroke-width="4"/>
+<text x="396" y="258" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="39" font-weight="600" fill="#426584" text-anchor="start">B</text>
+<text x="396" y="303" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#426584" text-anchor="start">多义词被补全</text>
+<text x="396" y="366" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="500" fill="#253b31" text-anchor="start">“100 / 75”</text>
+<text x="396" y="422.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">可能有多种含义，</text>
+<text x="396" y="459.2" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">模型擅自认成一种。</text>
+<path d="M396 530 L724 530" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="396" y="578.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#426584" text-anchor="start">先确认，再回答</text>
+<path d="M744 208 L1072 208" fill="none" stroke="#977735" stroke-width="4"/>
+<text x="744" y="258" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="39" font-weight="600" fill="#977735" text-anchor="start">C</text>
+<text x="744" y="303" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#977735" text-anchor="start">标签本来就错</text>
+<text x="744" y="366" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="500" fill="#253b31" text-anchor="start">“到某地有几公里”</text>
+<text x="744" y="422.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">距离问题本身明确，</text>
+<text x="744" y="459.2" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">不属于这次澄清修复。</text>
+<path d="M744 530 L1072 530" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="744" y="578.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#977735" text-anchor="start">改派或纠正归因</text>
+<text x="48" y="665" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#6d776e" text-anchor="start">先重新检查样本，再决定改策略、改规则，还是改派。</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700" role="img" aria-labelledby="title desc">
+<title id="title">把执行、流转和判定接起来</title><desc id="desc">一轮能完成，下一轮有来处，失败也有人接。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="700" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 18</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">把执行、流转和判定接起来</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">一轮能完成，下一轮有来处，失败也有人接。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 658 L1072 658" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="683" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="683" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">18 / 20</text>
+<path d="M48 211 L376 211" fill="none" stroke="#37694f" stroke-width="4"/>
+<text x="48" y="267" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="33" font-weight="600" fill="#37694f" text-anchor="start">Harness</text>
+<text x="48" y="321.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">工具、状态、约束和评测</text>
+<text x="48" y="359.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">让每一步可执行、可检查。</text>
+<path d="M396 211 L724 211" fill="none" stroke="#426584" stroke-width="4"/>
+<text x="396" y="267" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="33" font-weight="600" fill="#426584" text-anchor="start">Loop</text>
+<text x="396" y="321.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">发现、派单、回收和改派</text>
+<text x="396" y="359.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">让任务持续有去向。</text>
+<path d="M744 211 L1072 211" fill="none" stroke="#977735" stroke-width="4"/>
+<text x="744" y="267" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="33" font-weight="600" fill="#977735" text-anchor="start">角色分工</text>
+<text x="744" y="321.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">诊断、实施、验证分开</text>
+<text x="744" y="359.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">执行者不独自判定成功。</text>
+<text x="48" y="474" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="48" font-weight="600" fill="#37694f" text-anchor="start">约 20%</text>
+<text x="289" y="471" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#6d776e" text-anchor="start">阶段性记录：由这条链路处理的 bad case</text>
+<rect x="48" y="511" width="1024" height="29" fill="#d4dbd0" stroke="none" stroke-width="1.5" rx="0"/>
+<rect x="48" y="511" width="205" height="29" fill="#37694f" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="598" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">继续记录：关闭、失败、待定、改派，以及人工介入的位置。</text>
+<text x="48" y="646" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="22" font-weight="400" fill="#6d776e" text-anchor="start">覆盖率属于当时的业务范围，不是通用成功率。</text>
+</svg>

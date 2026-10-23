@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="800" viewBox="0 0 1120 800" role="img" aria-labelledby="title desc">
+<title id="title">一次跑了 17 小时的迭代记录</title><desc id="desc">16 轮之后，1 个候选通过人工复核并上线。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="800" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 06</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">一次跑了 17 小时的迭代记录</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">16 轮之后，1 个候选通过人工复核并上线。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 758 L1072 758" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="783" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="783" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">06 / 20</text>
+<text x="48" y="262" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="72" font-weight="600" fill="#37694f" text-anchor="start">17</text>
+<text x="48" y="306" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#6d776e" text-anchor="start">小时持续运行</text>
+<text x="406" y="262" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="72" font-weight="600" fill="#37694f" text-anchor="start">16</text>
+<text x="406" y="306" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#6d776e" text-anchor="start">轮迭代</text>
+<text x="764" y="262" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="72" font-weight="600" fill="#37694f" text-anchor="start">1</text>
+<text x="764" y="306" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#6d776e" text-anchor="start">个候选上线</text>
+<path d="M48 343 L1072 343" fill="none" stroke="#253b31" stroke-width="1.5"/>
+<text x="48" y="394" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">版本</text>
+<text x="250" y="394" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">正确性</text>
+<text x="420" y="394" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">全面性</text>
+<text x="590" y="394" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">安全性</text>
+<text x="760" y="394" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">易读性</text>
+<text x="930" y="394" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">实用性</text>
+<text x="48" y="457" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">基线</text>
+<text x="250" y="457" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">0.6942</text>
+<text x="420" y="457" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">0.6272</text>
+<text x="590" y="457" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">0.8533</text>
+<text x="760" y="457" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">0.9587</text>
+<text x="930" y="457" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">0.6761</text>
+<path d="M48 483 L1072 483" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="534" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#253b31" text-anchor="start">候选</text>
+<text x="250" y="534" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#253b31" text-anchor="start">0.7118</text>
+<text x="420" y="534" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#253b31" text-anchor="start">0.6466</text>
+<text x="590" y="534" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#253b31" text-anchor="start">0.8533</text>
+<text x="760" y="534" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#253b31" text-anchor="start">0.9649</text>
+<text x="930" y="534" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#253b31" text-anchor="start">0.6901</text>
+<path d="M48 560 L1072 560" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<rect x="48" y="570" width="1024" height="65" fill="#edf2e9" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="611" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="start">变化</text>
+<text x="250" y="611" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#37694f" text-anchor="start">+.0176</text>
+<text x="420" y="611" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#37694f" text-anchor="start">+.0194</text>
+<text x="590" y="611" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#37694f" text-anchor="start">0</text>
+<text x="760" y="611" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#37694f" text-anchor="start">+.0062</text>
+<text x="930" y="611" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="25" font-weight="600" fill="#37694f" text-anchor="start">+.0140</text>
+<path d="M48 637 L1072 637" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="710" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">安全性持平，其余四项小幅上涨。数据来自一次实践记录。</text>
+</svg>

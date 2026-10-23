@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720" role="img" aria-labelledby="title desc">
+<title id="title">调度器只负责派单与回流</title><desc id="desc">把诊断留给修复小队，把判断留给有权限的人。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="720" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 11</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">调度器只负责派单与回流</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">把诊断留给修复小队，把判断留给有权限的人。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 678 L1072 678" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="703" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="703" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">11 / 20</text>
+<text x="48" y="225" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="32" font-weight="600" fill="#426584" text-anchor="start">1</text>
+<text x="48" y="268.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">接收入池结果</text>
+<text x="312" y="225" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="32" font-weight="600" fill="#426584" text-anchor="start">2</text>
+<text x="312" y="268.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">按路由规则派单</text>
+<text x="576" y="225" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="32" font-weight="600" fill="#426584" text-anchor="start">3</text>
+<text x="576" y="268.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">处理改派与回传</text>
+<text x="840" y="225" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="32" font-weight="600" fill="#426584" text-anchor="start">4</text>
+<text x="840" y="268.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">必要时触发人工门禁</text>
+<path d="M48 335 L1072 335" fill="none" stroke="#253b31" stroke-width="1.5"/>
+<text x="48" y="388" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="28" font-weight="600" fill="#426584" text-anchor="start">往下传什么</text>
+<text x="48" y="431.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">编号、归因标签、样本数据、期望产出。</text>
+<text x="48" y="469.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">不替小队给出诊断结论。</text>
+<path d="M546 370 L546 577" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="588" y="388" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="28" font-weight="600" fill="#37694f" text-anchor="start">通知器怎样交接</text>
+<text x="588" y="431.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">按模板送达，检查对象与材料。</text>
+<text x="588" y="469.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">收到人的回复，写回原工单。</text>
+<text x="588" y="508.5" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">系统记录送达和回执。</text>
+<rect x="48" y="611" width="1024" height="64" fill="#edf2e9" stroke="none" stroke-width="1.5" rx="0"/>
+<rect x="48" y="611" width="4" height="64" fill="#37694f" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="70" y="652" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="500" fill="#37694f" text-anchor="start">送达、回复、业务判断，各自留下记录。</text>
+</svg>

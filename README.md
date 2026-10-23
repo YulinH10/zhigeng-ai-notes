@@ -10,7 +10,9 @@
 
 推送到 `main` 后，GitHub Actions 会先检查 JavaScript 语法并运行测试，通过后将 `dist/` 发布到 GitHub Pages。也可以在 Actions 页面手动运行工作流。仓库及站点公开可访问；工作流只上传静态站点文件。
 
-正式发布的文章放在 `dist/published.js`，配图放在 `dist/assets/articles/`，随网站部署向所有访客提供。网页启动时会把缺少的已发布文章加入笔记列表；相同 ID 的本地笔记优先保留，避免覆盖已有编辑。文章 Markdown 源稿放在 `articles/`。
+正式发布的文章放在 `dist/published.js`，配图放在 `dist/assets/articles/`，随网站部署向所有访客提供。网页启动时会把缺少的已发布文章加入笔记列表。相同 ID 的本地标题或正文经过编辑时，优先保留本地版本；内容与已登记旧版一致时才更新，并保留收藏、归档和个人标签。文章 Markdown 源稿放在 `articles/`。
+
+Harness 文章的 20 张配图可通过 `python3 scripts/draw-harness-figures.py` 重新生成。`dist/assets/articles/harness/figures.json` 按原图顺序记录了配图清单。
 
 首次从本地迁移：在 `http://localhost:4173` 的「设置与数据备份」导出完整 JSON 备份，然后在上述线上网站导入。GitHub Pages 网址和本地网址使用独立的浏览器存储，打开线上站点不会自动带入本地笔记。
 

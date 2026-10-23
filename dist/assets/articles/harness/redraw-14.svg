@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="755" viewBox="0 0 1120 755" role="img" aria-labelledby="title desc">
+<title id="title">一份 Prompt，两处规则</title><desc id="desc">把“需要澄清”写成具体可执行的动作。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="755" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 14</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">一份 Prompt，两处规则</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">把“需要澄清”写成具体可执行的动作。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 713 L1072 713" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="738" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="738" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">14 / 20</text>
+<text x="48" y="222" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="30" font-weight="600" fill="#37694f" text-anchor="start">01  给原规则补例外</text>
+<text x="48" y="273.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">原规则：能获得必要信息时，直接回答。</text>
+<text x="48" y="314.85" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">补充：极短、语音碎片、错字等输入，</text>
+<text x="48" y="356.7" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">如果意图仍不明确，先确认或反问。</text>
+<path d="M48 402 L1072 402" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="454" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="30" font-weight="600" fill="#426584" text-anchor="start">02  把例外写成判断</text>
+<text x="48" y="505.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">多义或不明确 → 先确认“最影响结果的含义”。</text>
+<text x="48" y="546.85" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">碎片 / 歧义输入 → 先问最关键的一个问题。</text>
+<text x="48" y="588.7" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">不要拼接缺失历史，不把猜测当成事实。</text>
+<text x="48" y="689" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">实施动作：新建分支 → 修改文件 → 提交可审查的变更。</text>
+</svg>

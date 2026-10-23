@@ -1,0 +1,162 @@
+[
+  {
+    "sourceFigure": 1,
+    "file": "redraw-01.svg",
+    "title": "让一轮修复自己跑完",
+    "description": "人定义问题，Agent 迭代，最后由人复核上线。",
+    "width": 1120,
+    "height": 610
+  },
+  {
+    "sourceFigure": 2,
+    "file": "redraw-02.svg",
+    "title": "先把四个动作接通",
+    "description": "操作入口要能调用，结果要能取回。",
+    "width": 1120,
+    "height": 630
+  },
+  {
+    "sourceFigure": 3,
+    "file": "redraw-03.svg",
+    "title": "长任务里，先管住执行和上下文",
+    "description": "早停、机械重试、上下文堆积，都需要具体的处理办法。",
+    "width": 1120,
+    "height": 710
+  },
+  {
+    "sourceFigure": 4,
+    "file": "redraw-04.svg",
+    "title": "让改动过验证，再换掉擂主",
+    "description": "避免把评分理由里的某个数字，直接抄成一条专用规则。",
+    "width": 1120,
+    "height": 690
+  },
+  {
+    "sourceFigure": 5,
+    "file": "redraw-05.svg",
+    "title": "规则可以加，也可以删",
+    "description": "角色约束过强时，安全的普通任务也可能被拒答。",
+    "width": 1120,
+    "height": 710
+  },
+  {
+    "sourceFigure": 6,
+    "file": "redraw-06.svg",
+    "title": "一次跑了 17 小时的迭代记录",
+    "description": "16 轮之后，1 个候选通过人工复核并上线。",
+    "width": 1120,
+    "height": 800
+  },
+  {
+    "sourceFigure": 7,
+    "file": "redraw-07.svg",
+    "title": "修完这一批，下一批还在等人",
+    "description": "中间两步自动化了，发现、派工和回收仍需要人推动。",
+    "width": 1120,
+    "height": 555
+  },
+  {
+    "sourceFigure": 8,
+    "file": "redraw-08.svg",
+    "title": "任务包进去，结果包回来",
+    "description": "外循环决定下一站；内循环把一个任务做到可判定。",
+    "width": 1120,
+    "height": 865
+  },
+  {
+    "sourceFigure": 9,
+    "file": "redraw-09.svg",
+    "title": "八个角色，各管一段",
+    "description": "外面管任务流转，里面管诊断、修复和验证。",
+    "width": 1120,
+    "height": 800
+  },
+  {
+    "sourceFigure": 10,
+    "file": "redraw-10.svg",
+    "title": "先把混杂样本整理成可路由的数据",
+    "description": "同一个问题可能反复出现，同一个标签也可能混着不同原因。",
+    "width": 1120,
+    "height": 630
+  },
+  {
+    "sourceFigure": 11,
+    "file": "redraw-11.svg",
+    "title": "调度器只负责派单与回流",
+    "description": "把诊断留给修复小队，把判断留给有权限的人。",
+    "width": 1120,
+    "height": 720
+  },
+  {
+    "sourceFigure": 12,
+    "file": "redraw-12.svg",
+    "title": "25 条“没有澄清”，要拆成三组",
+    "description": "相同的标签，不代表相同的修复方向。",
+    "width": 1120,
+    "height": 730
+  },
+  {
+    "sourceFigure": 13,
+    "file": "redraw-13.svg",
+    "title": "证据先缩小范围，人来定策略边界",
+    "description": "方向确认、方案审查都通过，实施者再动手。",
+    "width": 1120,
+    "height": 770
+  },
+  {
+    "sourceFigure": 14,
+    "file": "redraw-14.svg",
+    "title": "一份 Prompt，两处规则",
+    "description": "把“需要澄清”写成具体可执行的动作。",
+    "width": 1120,
+    "height": 755
+  },
+  {
+    "sourceFigure": 15,
+    "file": "redraw-15.svg",
+    "title": "66 次请求，回收成四种去向",
+    "description": "25 条样本：先改派 3 条，22 条各回测 3 次。",
+    "width": 1120,
+    "height": 770
+  },
+  {
+    "sourceFigure": 16,
+    "file": "redraw-16.svg",
+    "title": "按来源回答，仍然三次全错",
+    "description": "一次数据归因：Prompt 的约束已生效，上游字段却错了。",
+    "width": 1120,
+    "height": 680
+  },
+  {
+    "sourceFigure": 17,
+    "file": "redraw-17.svg",
+    "title": "修不了的，带着证据交回外循环",
+    "description": "修复小队回传判定；全局调度器重新路由。",
+    "width": 1120,
+    "height": 805
+  },
+  {
+    "sourceFigure": 18,
+    "file": "redraw-18.svg",
+    "title": "把执行、流转和判定接起来",
+    "description": "一轮能完成，下一轮有来处，失败也有人接。",
+    "width": 1120,
+    "height": 700
+  },
+  {
+    "sourceFigure": 19,
+    "file": "redraw-19.svg",
+    "title": "人从推流程，转到管流程",
+    "description": "定边界、抽样、审计、担责，仍然需要明确的负责人。",
+    "width": 1120,
+    "height": 780
+  },
+  {
+    "sourceFigure": 20,
+    "file": "redraw-20.svg",
+    "title": "从最小的一条链开始",
+    "description": "先选一类能复现、能验证的错误。",
+    "width": 1120,
+    "height": 715
+  }
+]

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="690" viewBox="0 0 1120 690" role="img" aria-labelledby="title desc">
+<title id="title">让改动过验证，再换掉擂主</title><desc id="desc">避免把评分理由里的某个数字，直接抄成一条专用规则。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="690" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 04</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">让改动过验证，再换掉擂主</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">避免把评分理由里的某个数字，直接抄成一条专用规则。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 648 L1072 648" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="673" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="673" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">04 / 20</text>
+<rect x="48" y="203" width="483" height="170" fill="#edf2e9" stroke="none" stroke-width="1.5" rx="0"/>
+<rect x="559" y="203" width="513" height="170" fill="#eef1f4" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="72" y="246" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="30" font-weight="600" fill="#37694f" text-anchor="start">优化样本</text>
+<text x="72" y="291.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">问题 + 回答 + 分数 + 理由</text>
+<text x="72" y="329.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">用来分析原因、修改 Prompt</text>
+<text x="583" y="246" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="30" font-weight="600" fill="#426584" text-anchor="start">验证集</text>
+<text x="583" y="291.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">只返回汇总分数</text>
+<text x="583" y="329.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">隐藏题目、回答与评分细节</text>
+<rect x="48" y="432" width="255" height="85" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="175.5" y="472.8" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">当前擂主</text>
+<text x="175.5" y="497.45" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">历史已验证版本</text>
+<rect x="415" y="432" width="262" height="85" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="546.0" y="472.8" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">挑战者</text>
+<text x="546.0" y="497.45" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">从擂主出发修改</text>
+<rect x="789" y="432" width="283" height="85" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="930.5" y="472.8" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">验证比较</text>
+<text x="930.5" y="497.45" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">达标才晋升</text>
+<path d="M311 474 L403 474" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M685 474 L777 474" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M930 518 V572 H175 V528" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="555" y="558" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#37694f" text-anchor="middle">通过：新擂主；未通过：保留原版本</text>
+<text x="48" y="615" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">另留最终测试：反复用验证分数选优，仍可能过拟合。</text>
+</svg>

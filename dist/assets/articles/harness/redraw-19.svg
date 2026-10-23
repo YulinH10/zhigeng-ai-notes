@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="780" viewBox="0 0 1120 780" role="img" aria-labelledby="title desc">
+<title id="title">人从推流程，转到管流程</title><desc id="desc">定边界、抽样、审计、担责，仍然需要明确的负责人。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="780" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 19</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">人从推流程，转到管流程</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">定边界、抽样、审计、担责，仍然需要明确的负责人。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 738 L1072 738" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="763" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="763" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">19 / 20</text>
+<text x="48" y="220" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="29" font-weight="600" fill="#6d776e" text-anchor="start">过去：逐步推动</text>
+<text x="672" y="220" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="29" font-weight="600" fill="#37694f" text-anchor="start">现在：在环外监督</text>
+<circle cx="260" cy="307" r="7" fill="#fafaf6" stroke="#6d776e" stroke-width="2"/>
+<text x="260" y="346" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="middle">发现</text>
+<circle cx="382" cy="430" r="7" fill="#fafaf6" stroke="#6d776e" stroke-width="2"/>
+<text x="382" y="409" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="middle">归因</text>
+<circle cx="260" cy="553" r="7" fill="#fafaf6" stroke="#6d776e" stroke-width="2"/>
+<text x="260" y="592" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="middle">分派</text>
+<circle cx="138" cy="430" r="7" fill="#fafaf6" stroke="#6d776e" stroke-width="2"/>
+<text x="138" y="409" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="middle">回收</text>
+<circle cx="260" cy="430" r="123" fill="none" stroke="#d4dbd0" stroke-width="2"/>
+<text x="260" y="441" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="42" font-weight="500" fill="#6d776e" text-anchor="middle">人</text>
+<path d="M478 430 L608 430" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="856" cy="430" r="126" fill="#edf2e9" stroke="#37694f" stroke-width="2"/>
+<path d="M770 338 A126 126 0 0 1 980 415" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M946 522 A126 126 0 0 1 732 446" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="856" y="418" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="38" font-weight="600" fill="#37694f" text-anchor="middle">Agent</text>
+<text x="856" y="459" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#37694f" text-anchor="middle">持续流转</text>
+<text x="694" y="295" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">定边界</text>
+<text x="694" y="330" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">授权与停止条件</text>
+<text x="1006" y="295" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">抽样看</text>
+<text x="1006" y="330" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">过程与异常</text>
+<text x="694" y="601" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">审计</text>
+<text x="694" y="636" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">版本与证据</text>
+<text x="1006" y="601" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">担责</text>
+<text x="1006" y="636" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">发布与回滚</text>
+<text x="48" y="705" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">人不必逐个催节点，但关键决策、上线审批和责任仍然保留。</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610" role="img" aria-labelledby="title desc">
+<title id="title">让一轮修复自己跑完</title><desc id="desc">人定义问题，Agent 迭代，最后由人复核上线。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="610" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 01</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">让一轮修复自己跑完</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">人定义问题，Agent 迭代，最后由人复核上线。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 568 L1072 568" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="593" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="593" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">01 / 20</text>
+<text x="48" y="211" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="start">人</text>
+<text x="270" y="211" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#37694f" text-anchor="start">Agent 执行</text>
+<rect x="48" y="242" width="170" height="96" fill="#fafaf6" stroke="#6d776e" stroke-width="1.5" rx="0"/>
+<text x="133.0" y="288.08" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#6d776e" text-anchor="middle">定义问题</text>
+<text x="133.0" y="315.92" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">范围与验收</text>
+<rect x="264" y="242" width="158" height="96" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="343.0" y="288.08" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">分析</text>
+<text x="343.0" y="315.92" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">定位 bad case</text>
+<rect x="458" y="242" width="158" height="96" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="537.0" y="288.08" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">修改</text>
+<text x="537.0" y="315.92" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">代码 / Prompt</text>
+<rect x="652" y="242" width="158" height="96" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="731.0" y="288.08" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">部署</text>
+<text x="731.0" y="315.92" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">固定版本</text>
+<rect x="846" y="242" width="226" height="96" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="959.0" y="288.08" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">评测</text>
+<text x="959.0" y="315.92" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#6d776e" text-anchor="middle">输出结果与分数</text>
+<path d="M223 290 L255 290" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M427 290 L449 290" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M621 290 L643 290" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M815 290 L837 290" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M958 338 V396 H344 V347" fill="none" stroke="#a75c46" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="576" y="384" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#a75c46" text-anchor="middle">未达标：带着结果继续下一轮</text>
+<path d="M958 398 L958 439" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="981" y="430" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="20" font-weight="400" fill="#37694f" text-anchor="start">达标</text>
+<rect x="806" y="451" width="266" height="67" fill="#fafaf6" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="939.0" y="493.6" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#37694f" text-anchor="middle">人工复核 · 上线</text>
+<text x="48" y="504" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">完成 / 预算 / 权限 / 人工判断：预先写清退出条件</text>
+</svg>

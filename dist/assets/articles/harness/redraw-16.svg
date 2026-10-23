@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="680" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+<title id="title">按来源回答，仍然三次全错</title><desc id="desc">一次数据归因：Prompt 的约束已生效，上游字段却错了。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="680" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 16</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">按来源回答，仍然三次全错</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">一次数据归因：Prompt 的约束已生效，上游字段却错了。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 638 L1072 638" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="663" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="663" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">16 / 20</text>
+<text x="48" y="231" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#a75c46" text-anchor="start">上游数据库</text>
+<text x="48" y="289.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">把“三级专科”</text>
+<text x="48" y="329.3" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">误标为“三甲”</text>
+<path d="M267 273 L300 273" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="320" y="231" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#a75c46" text-anchor="start">工具返回</text>
+<text x="320" y="289.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">把错误等级</text>
+<text x="320" y="329.3" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">传给模型</text>
+<path d="M539 273 L572 273" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="592" y="231" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#426584" text-anchor="start">模型回答</text>
+<text x="592" y="289.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">遵守来源约束</text>
+<text x="592" y="329.3" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="400" fill="#253b31" text-anchor="start">复述了错误数据</text>
+<path d="M806 273 L840 273" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="862" y="231" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#a75c46" text-anchor="start">目标回测</text>
+<text x="862" y="314" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="57" font-weight="600" fill="#a75c46" text-anchor="start">0/3</text>
+<text x="862" y="361" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#a75c46" text-anchor="start">全部失败</text>
+<rect x="48" y="429" width="1024" height="132" fill="#edf2e9" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="72" y="476" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="600" fill="#37694f" text-anchor="start">Prompt 改动</text>
+<text x="72" y="520" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="400" fill="#253b31" text-anchor="start">等级、排名按工具结果回答，并明确来源。</text>
+<text x="48" y="612" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#6d776e" text-anchor="start">下一步：带着数据证据改派，继续改措辞解决不了来源错误。</text>
+</svg>

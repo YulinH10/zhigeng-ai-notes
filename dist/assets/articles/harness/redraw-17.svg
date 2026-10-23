@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="805" viewBox="0 0 1120 805" role="img" aria-labelledby="title desc">
+<title id="title">修不了的，带着证据交回外循环</title><desc id="desc">修复小队回传判定；全局调度器重新路由。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="805" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 17</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">修不了的，带着证据交回外循环</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">修复小队回传判定；全局调度器重新路由。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 763 L1072 763" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="788" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="788" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">17 / 20</text>
+<rect x="48" y="210" width="637" height="98" fill="#fafaf6" stroke="#a75c46" stroke-width="1.5" rx="0"/>
+<text x="72" y="249" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#a75c46" text-anchor="start">修复小队</text>
+<text x="72" y="286" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#253b31" text-anchor="start">本次无法修复：约束生效，回测仍然失败。</text>
+<path d="M366 312 L366 336" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="345" width="637" height="98" fill="#fafaf6" stroke="#6d776e" stroke-width="1.5" rx="0"/>
+<text x="72" y="384" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#6d776e" text-anchor="start">父调度器</text>
+<text x="72" y="421" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#253b31" text-anchor="start">接收判定、版本、输出与验证证据。</text>
+<path d="M366 447 L366 471" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="480" width="637" height="98" fill="#fafaf6" stroke="#426584" stroke-width="1.5" rx="0"/>
+<text x="72" y="519" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#426584" text-anchor="start">全局调度器</text>
+<text x="72" y="556" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#253b31" text-anchor="start">形成状态，按“检索 / 数据”归属重新路由。</text>
+<path d="M366 582 L366 606" fill="none" stroke="#253b31" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="615" width="637" height="98" fill="#edf2e9" stroke="#37694f" stroke-width="1.5" rx="0"/>
+<text x="72" y="654" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#37694f" text-anchor="start">检索 / 数据小队</text>
+<text x="72" y="691" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#253b31" text-anchor="start">新建接续任务，检查并修正来源。</text>
+<path d="M730 210 L730 712" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="772" y="249" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="27" font-weight="600" fill="#37694f" text-anchor="start">职责边界</text>
+<text x="772" y="298.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">小队不自行选择下家。</text>
+<text x="772" y="336.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">调度器不重复做诊断。</text>
+<text x="772" y="375.5" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">改派沿用已有证据。</text>
+<text x="772" y="505" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="26" font-weight="600" fill="#977735" text-anchor="start">需要人判断时</text>
+<text x="772" y="552.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">把材料送到工单，</text>
+<text x="772" y="590.75" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">由人确认路由。</text>
+<text x="772" y="629.5" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">回复后按约定继续。</text>
+</svg>

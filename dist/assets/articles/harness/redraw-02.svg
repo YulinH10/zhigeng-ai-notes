@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="630" viewBox="0 0 1120 630" role="img" aria-labelledby="title desc">
+<title id="title">先把四个动作接通</title><desc id="desc">操作入口要能调用，结果要能取回。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect x="0" y="0" width="1120" height="630" fill="#fafaf6" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="48" y="45" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="18" font-weight="400" fill="#37694f" text-anchor="start">FIG. 02</text>
+<text x="48" y="98" font-family="&#x27;Songti SC&#x27;,&#x27;Noto Serif CJK SC&#x27;,serif" font-size="36" font-weight="600" fill="#253b31" text-anchor="start">先把四个动作接通</text>
+<text x="48" y="139" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="21" font-weight="400" fill="#6d776e" text-anchor="start">操作入口要能调用，结果要能取回。</text>
+<path d="M48 163 L1072 163" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<path d="M48 588 L1072 588" fill="none" stroke="#d4dbd0" stroke-width="1.5"/>
+<text x="48" y="613" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="start">HARNESS / LOOP</text>
+<text x="1072" y="613" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="15" font-weight="400" fill="#6d776e" text-anchor="end">02 / 20</text>
+<text x="48" y="218" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="24" font-weight="400" fill="#37694f" text-anchor="start">01</text>
+<text x="48" y="265" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="32" font-weight="600" fill="#253b31" text-anchor="start">修改</text>
+<text x="48" y="314.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">代码库 + 命令行</text>
+<text x="48" y="352" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">开发技能</text>
+<path d="M267 263 L297 263" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="312" y="218" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="24" font-weight="400" fill="#37694f" text-anchor="start">02</text>
+<text x="312" y="265" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="32" font-weight="600" fill="#253b31" text-anchor="start">部署</text>
+<text x="312" y="314.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">构建 + 发布</text>
+<text x="312" y="352" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">部署技能</text>
+<path d="M531 263 L561 263" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="576" y="218" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="24" font-weight="400" fill="#37694f" text-anchor="start">03</text>
+<text x="576" y="265" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="32" font-weight="600" fill="#253b31" text-anchor="start">评测</text>
+<text x="576" y="314.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">发起 + 跟踪</text>
+<text x="576" y="352" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">评测技能</text>
+<path d="M795 263 L825 263" fill="none" stroke="#37694f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="840" y="218" font-family="&#x27;SFMono-Regular&#x27;,&#x27;Menlo&#x27;,monospace" font-size="24" font-weight="400" fill="#37694f" text-anchor="start">04</text>
+<text x="840" y="265" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="32" font-weight="600" fill="#253b31" text-anchor="start">取结果</text>
+<text x="840" y="314.0" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="400" fill="#253b31" text-anchor="start">下载 + 解析</text>
+<text x="840" y="352" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="23" font-weight="400" fill="#6d776e" text-anchor="start">结果技能</text>
+<rect x="48" y="397" width="1024" height="138" fill="#edf2e9" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="72" y="436" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="24" font-weight="600" fill="#37694f" text-anchor="start">共同的运行条件</text>
+<text x="72" y="478" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">代码库 / 分支 / 固定环境 / 权限范围</text>
+<text x="72" y="517" font-family="&#x27;Hiragino Sans GB&#x27;,&#x27;PingFang SC&#x27;,&#x27;Noto Sans CJK SC&#x27;,sans-serif" font-size="25" font-weight="400" fill="#253b31" text-anchor="start">评测任务 / 评测范围 / 结果位置 / 分析技能</text>
+</svg>
