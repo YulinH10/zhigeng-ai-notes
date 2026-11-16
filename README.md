@@ -14,6 +14,10 @@
 
 Harness 文章的 20 张配图可通过 `python3 scripts/draw-harness-figures.py` 重新生成。`dist/assets/articles/harness/figures.json` 按原图顺序记录了配图清单。
 
+新增文章《深度解析 RSI 技术及四大前沿框架实践》（2026-11-16），源稿位于 `articles/2026-11-16-rsi-frameworks.md`，两张机制图位于 `dist/assets/articles/rsi/`。正文已收录到 `dist/published.js`，覆盖 Harness²、Evo²、RRSI、OO-Harness、内部 Agent 预研方案和人工审核边界，并附原论文及作者仓库链接。
+
+本站已发布文章的配图在阅读和预览时从当前站点目录加载，本地启动也可查看；笔记正文和导出的 Markdown 保留线上完整地址。
+
 首次从本地迁移：在 `http://localhost:4173` 的「设置与数据备份」导出完整 JSON 备份，然后在上述线上网站导入。GitHub Pages 网址和本地网址使用独立的浏览器存储，打开线上站点不会自动带入本地笔记。
 
 ## 本地启动

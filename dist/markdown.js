@@ -10,7 +10,11 @@ function inline(source) {
   value = value.replace(imageMarkupPattern(), (_, alt, href, size) => {
     const source = safeImageSource(href);
     if (!source) return token(`<span class="missing-image">${alt || '图片地址不受支持'}</span>`);
-    const attributes = source.id ? `data-attachment-id="${source.id}"` : `src="${source.url}"`;
+    // Resolve bundled article images on this deployment, including localhost previews.
+    // Keep canonical URLs in note content so exported Markdown remains portable.
+    const bundled = source.url?.match(/^https:\/\/yulinh10\.github\.io\/zhigeng-ai-notes\/(assets\/articles\/[a-zA-Z0-9_/-]+\.(?:svg|png|jpe?g|webp))$/);
+    const url = bundled ? `./${bundled[1]}` : source.url;
+    const attributes = source.id ? `data-attachment-id="${source.id}"` : `src="${url}"`;
     const width = validImageWidth(size);
     return token(`<img class="note-image" ${attributes}${width === null ? '' : ` style="width:${width}%;max-height:none"`} alt="${alt || '笔记图片'}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`);
   });

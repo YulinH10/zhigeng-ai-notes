@@ -7,7 +7,7 @@ import { markdown } from '../dist/markdown.js';
 
 test('published articles are valid notes with deployable images and complete content', () => {
   const validated = validateBackup({ app: 'zhigeng-ai-notes', version: 1, notes: PUBLISHED_NOTES });
-  assert.equal(validated.length, 1);
+  assert.equal(validated.length, PUBLISHED_NOTES.length);
   const [article] = includePublishedNotes([]);
   assert.equal(article.id, 'aff079b6-aabc-4fb4-a889-3e55b7bd9a17');
   assert.equal(article.title, '让 Agent 自己修 bad case');
@@ -24,13 +24,35 @@ test('published articles are valid notes with deployable images and complete con
     assert.ok(url.pathname.startsWith('/zhigeng-ai-notes/assets/articles/'));
     const file = new URL('../dist/' + url.pathname.slice('/zhigeng-ai-notes/'.length), import.meta.url);
     assert.ok(existsSync(file));
+    assert.ok(markdown(article.content).includes(`src="./${url.pathname.slice('/zhigeng-ai-notes/'.length)}"`));
     const svg = readFileSync(file, 'utf8');
     assert.match(svg, /<svg[^>]+viewBox=/);
     assert.match(svg, /<title id="title">/);
     assert.doesNotMatch(svg.replace('http://www.w3.org/2000/svg', ''), /阿福|蚂蚁|阿里|奇点学堂|萧恺|肖汉松|HAR-\d|<script|<image|https?:\/\//i);
   }
   assert.equal((markdown(article.content).match(/<img /g) || []).length, 20);
-  assert.equal(includePublishedNotes(makeSeedNotes()).length, 7);
+  assert.equal(includePublishedNotes(makeSeedNotes()).length, makeSeedNotes().length + PUBLISHED_NOTES.length);
+
+  const rsi = validated.find(note => note.id === 'dfd19da8-a7b6-431f-a7b7-dc99b6adf09f');
+  assert.ok(rsi);
+  const source = readFileSync(new URL('../articles/2026-11-16-rsi-frameworks.md', import.meta.url), 'utf8');
+  assert.equal(rsi.title, source.split('\n')[0].slice(2));
+  assert.equal(rsi.content, source.split('\n').slice(4).join('\n'));
+  const rsiImages = [...rsi.content.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)];
+  assert.equal(rsiImages.length, 2);
+  for (const [, source] of rsiImages) {
+    const url = new URL(source);
+    assert.equal(url.origin, 'https://yulinh10.github.io');
+    assert.ok(url.pathname.startsWith('/zhigeng-ai-notes/assets/articles/rsi/'));
+    const file = new URL('../dist/' + url.pathname.slice('/zhigeng-ai-notes/'.length), import.meta.url);
+    assert.ok(existsSync(file));
+    assert.ok(markdown(rsi.content).includes(`src="./${url.pathname.slice('/zhigeng-ai-notes/'.length)}"`));
+    const svg = readFileSync(file, 'utf8');
+    assert.match(svg, /<svg[^>]+viewBox=/);
+    assert.match(svg, /<title id="title">/);
+    assert.doesNotMatch(svg.replace('http://www.w3.org/2000/svg', ''), /<script|<image|https?:\/\//i);
+  }
+  assert.equal((markdown(rsi.content).match(/<img /g) || []).length, 2);
 });
 
 test('unchanged earlier editions refresh while personal edits, tags and archives survive', () => {
@@ -54,7 +76,8 @@ test('published articles do not duplicate or overwrite saved notes, edits, or ar
   const personal = { ...PUBLISHED_NOTES[0], title: '我的本地改写', archivedAt: '2026-10-23T00:00:00Z', favorite: true };
   const existing = [{ ...makeSeedNotes()[0], title: '另一篇笔记' }, personal];
   const merged = includePublishedNotes(existing);
-  assert.deepEqual(merged, existing);
+  assert.deepEqual(merged.slice(0, existing.length), existing);
+  assert.deepEqual(merged.slice(existing.length).map(note => note.id), PUBLISHED_NOTES.slice(1).map(note => note.id));
   assert.equal(merged[1], personal);
   assert.deepEqual(includePublishedNotes(merged), merged);
   const [fresh] = includePublishedNotes([]);

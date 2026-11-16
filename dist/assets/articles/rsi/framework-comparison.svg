@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="850" viewBox="0 0 1120 850" role="img" aria-labelledby="title desc">
+  <title id="title">四大 RSI 框架机制对照</title>
+  <desc id="desc">Harness2通过执行对照和经验库指导在线改进；Evo2同时进化执行Harness和改进者权重；RRSI正则化提案与选择；OO-Harness演化可继承类并在测试时冻结后路由。四者不能按跨论文成绩直接排名。</desc>
+  <defs>
+    <style>text{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;fill:#253b31}.title{font-family:'Songti SC',serif;font-size:35px;font-weight:600}.label{font-size:25px;font-weight:600}.body{font-size:22px}.small{font-size:20px}.muted{fill:#6d776e}.green{fill:#37694f}</style>
+  </defs>
+  <rect width="1120" height="850" fill="#fafaf6"/>
+  <text x="48" y="46" class="small green">FIG. 02 / FOUR FRAMEWORKS</text>
+  <text x="48" y="100" class="title">同样叫自进化，变化发生在不同位置</text>
+  <text x="48" y="141" class="small muted">依据原论文整理 · 任务执行模型均可保持固定，改进者是否训练需另看</text>
+  <rect x="48" y="181" width="1024" height="61" fill="#253b31"/>
+  <g font-size="22" font-weight="600" style="fill:#fff">
+    <text x="70" y="220" style="fill:#fff">框架</text><text x="270" y="220" style="fill:#fff">主要变化</text><text x="570" y="220" style="fill:#fff">改进反馈</text><text x="844" y="220" style="fill:#fff">跨轮留下什么</text>
+  </g>
+  <rect x="48" y="242" width="1024" height="122" fill="#edf2e9"/>
+  <text x="70" y="288" class="label">Harness²</text>
+  <text x="70" y="326" class="small green">开放任务适应</text>
+  <text x="270" y="288" class="body">执行组件</text><text x="270" y="326" class="small muted">+ 改进经验库</text>
+  <text x="570" y="288" class="body">匹配条件下的对照</text><text x="570" y="326" class="small muted">行为差异≠正确性</text>
+  <text x="844" y="288" class="body">可复用组件</text><text x="844" y="326" class="small muted">与适用经验</text>
+  <rect x="48" y="364" width="1024" height="122" fill="#f2f3ef"/>
+  <text x="70" y="410" class="label">Evo²</text><text x="70" y="448" class="small green">改进者也学习</text>
+  <text x="270" y="410" class="body">Harness 搜索树</text><text x="270" y="448" class="small muted">+ 改进者模型权重</text>
+  <text x="570" y="410" class="body">修改后的执行效果</text><text x="570" y="448" class="small muted">SFT + 交错 GRPO</text>
+  <text x="844" y="410" class="body">候选与策略</text><text x="844" y="448" class="small muted">+ 训练后的改进者</text>
+  <rect x="48" y="486" width="1024" height="122" fill="#edf2e9"/>
+  <text x="70" y="532" class="label">RRSI</text><text x="70" y="570" class="small green">防过拟合与膨胀</text>
+  <text x="270" y="532" class="body">执行 Harness</text><text x="270" y="570" class="small muted">约束提案和选择过程</text>
+  <text x="570" y="532" class="body">得分 / 噪声 / 成本</text><text x="570" y="570" class="small muted">泄漏筛查与结构剪枝</text>
+  <text x="844" y="532" class="body">晋升版本</text><text x="844" y="570" class="small muted">与正负修改历史</text>
+  <rect x="48" y="608" width="1024" height="122" fill="#f2f3ef"/>
+  <text x="70" y="654" class="label">OO-Harness</text><text x="70" y="692" class="small green">异构任务专用化</text>
+  <text x="270" y="654" class="body">继承类与专用方法</text><text x="270" y="692" class="small muted">+ 设计和路由经验</text>
+  <text x="570" y="654" class="body">发现集上的执行</text><text x="570" y="692" class="small muted">测试时冻结并路由</text>
+  <text x="844" y="654" class="body">已验收类层次</text><text x="844" y="692" class="small muted">与冻结经验</text>
+  <path d="M48 242H1072M48 364H1072M48 486H1072M48 608H1072M48 730H1072" stroke="#d4dbd0"/>
+  <text x="48" y="776" class="small muted">选型先看反馈条件、任务差异、训练能力与总成本，再做预算匹配的对照实验。</text>
+  <path d="M48 804H1072" stroke="#d4dbd0"/>
+  <text x="48" y="831" font-size="15" class="muted">ZHIGENG / AI NOTES</text>
+  <text x="1072" y="831" font-size="15" class="muted" text-anchor="end">RSI / 2026.11</text>
+</svg>
